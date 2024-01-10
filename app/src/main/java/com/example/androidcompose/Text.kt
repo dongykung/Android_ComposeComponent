@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.androidcompose.ui.theme.AndroidComposeTheme
 
-class Text : ComponentActivity() {
+class ComposeText : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -81,7 +81,7 @@ fun CreateText(name: String){
 
 @Composable
 @Preview(showBackground = true)
-fun TextPreView() {
+fun DefaultTextPreView() {
     AndroidComposeTheme() {
         CreateText("Android")
     }
