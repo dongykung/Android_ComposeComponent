@@ -113,7 +113,7 @@ fun CreateButton(onButtonClick : () -> Unit){
         //step 8 : contentPadding에 PaddingValues를 설정해본다
         // elevation으로 그림자를 설정해본다
         Button(onClick = onButtonClick, contentPadding = PaddingValues(5.dp),
-            elevation = ButtonDefaults.buttonElevation(defaultElevation = 10.dp)) {
+            elevation = ButtonDefaults.buttonElevation(defaultElevation = 25.dp)) {
             Icon(imageVector = Icons.Filled.Send, contentDescription =null)
             Spacer(modifier = Modifier.size(ButtonDefaults.IconSpacing))
             Text(text = "Send")
