@@ -17,11 +17,19 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidCompose">
+        </activity>
+        <activity android:name=".ComposeButton"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidCompose">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".ComposeText"
+            android:exported="true"
+            android:theme="@style/Theme.AndroidCompose">
         </activity>
     </application>
 
