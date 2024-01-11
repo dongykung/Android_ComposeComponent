@@ -19,7 +19,7 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidCompose">
         </activity>
-        <activity android:name=".TopAppbar"
+        <activity android:name=".ComposeSlotAPI"
             android:exported="true"
             android:theme="@style/Theme.AndroidCompose">
             <intent-filter>
